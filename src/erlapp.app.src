@@ -1,0 +1,12 @@
+{application, erlapp,
+ [
+  {description, "Erlapp"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {erlapp_app, []}}, 
+  {env, []}
+ ]}.
